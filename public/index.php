@@ -4,25 +4,25 @@ if (isset($_GET['page'])){
 
     switch ($_GET['page']) {
         case 'accueil':
-            include "../templates/accueilView.php";
+            include "../view/accueilView.php";
             break;
         case 'apropos':
-            include "../templates/aproposView.php";
+            include "../view/aproposView.php";
             break;
         case 'contact':
-            include "../templates/contactsView.php";
+            include "../view/contactsView.php";
             break;
         case 'histoire':
-            include "../templates/histoireView.php";
+            include "../view/histoireView.php";
             break;
         default:
-            include "../templates/error404View.php";
+            include "../view/error404View.php";
             break;
     }
 
 }else{
 
-    include "../tempates/accueilView.php";
+    include "../view/accueilView.php";
 
     }
 

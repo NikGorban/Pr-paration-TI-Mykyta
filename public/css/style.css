@@ -1,65 +1,63 @@
-/*public/css/style.css*/
-
 button {
-    background-color: #4CAF50; /* Green background */
-    border: none; /* Remove borders */
-    color: white; /* White text */
-    padding: 15px 32px; /* Some padding */
-    text-align: center; /* Center the text */
-    text-decoration: none; /* Remove underline */
-    display: inline-block; /* Make the buttons appear side by side */
-    font-size: 16px; /* Increase font size */
-    margin: 4px 2px; /* Add some margin */
-    cursor: pointer; /* Add a pointer cursor on hover */
-    border-radius: 12px; /* Rounded corners */
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
 }
 
 button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049;
 }
 
 a.button {
-    background-color: #4CAF50; /* Green background */
-    border: none; /* Remove borders */
-    color: white; /* White text */
-    padding: 15px 32px; /* Some padding */
-    text-align: center; /* Center the text */
-    text-decoration: none; /* Remove underline */
-    display: inline-block; /* Make the links appear as buttons */
-    font-size: 16px; /* Increase font size */
-    margin: 4px 2px; /* Add some margin */
-    cursor: pointer; /* Add a pointer cursor on hover */
-    border-radius: 12px; /* Rounded corners */
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
 }
 
 a.button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049;
 }
 
 .navbar {
-    background-color: #333; /* Dark background */
-    overflow: hidden; /* Clear floats */
+    background-color: #333;
+    overflow: hidden;
 }
 
 .navbar-menu {
-    list-style-type: none; /* Remove bullets */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    display: flex; /* Display items in a row */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 .navbar-item {
-    flex: 1; /* Distribute items evenly */
+    flex: 1;
 }
 
 .navbar-link {
-    display: block; /* Make links block elements */
-    color: white; /* White text */
-    text-align: center; /* Center the text */
-    padding: 14px 20px; /* Add some padding */
-    text-decoration: none; /* Remove underline */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
 }
 
 .navbar-link:hover {
-    background-color: #575757; /* Darker background on hover */
+    background-color: #575757;
 }

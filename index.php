@@ -1,1 +1,3 @@
-<?php include 'templates/inc/menuIncView.php'; ?>
+<?php
+
+header("Location: public");
