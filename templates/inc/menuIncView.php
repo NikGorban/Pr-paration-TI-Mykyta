@@ -1,6 +1,9 @@
-
-<a href="?page=accueil">Accueil</a>
-<a href="?page=apropos">Apropose</a>
-<a href="?page=contact">Contact</a>
-<a href="?page=histoire">Histoire</a>
+<nav class="navbar">
+    <ul class="navbar-menu">
+        <li class="navbar-item"><a href="?page=accueil" class="navbar-link">Accueil</a></li>
+        <li class="navbar-item"><a href="?page=apropos" class="navbar-link">Apropos</a></li>
+        <li class="navbar-item"><a href="?page=contact" class="navbar-link">Contact</a></li>
+        <li class="navbar-item"><a href="?page=histoire" class="navbar-link">Histoire</a></li>
+    </ul>
+</nav>
 
