@@ -6,4 +6,4 @@ include "inc/menuIncView.php"
 
 <?php 
 include "inc/footerIncView.php";
-?style
+?>
