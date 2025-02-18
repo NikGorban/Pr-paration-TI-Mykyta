@@ -1,5 +1,7 @@
-<p>template/contactView.php</p>
+
 
 <?php
- include "ink/menuIncView.php"
+include "inc/menuIncView.php"
 ?>
+
+<h1>Contacts</h1>

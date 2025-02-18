@@ -2,13 +2,7 @@
 
 if (isset($_GET['page'])){
 
-    switch($_GET['page']){
-        case "df": 
-    }
-
-}else{
-
-    switch ($page) {
+    switch ($_GET['page']) {
         case 'accueil':
             include "../templates/accueilView.php";
             break;
@@ -16,14 +10,21 @@ if (isset($_GET['page'])){
             include "../templates/aproposView.php";
             break;
         case 'contact':
-            include "../templates/contactView.php";
+            include "../templates/contactsView.php";
             break;
         case 'histoire':
             include "../templates/histoireView.php";
             break;
         default:
-            include "../templates/error404.php";
+            include "../templates/error404View.php";
             break;
     }
-}
+
+}else{
+
+    include "../tempates/accueilView.php";
+
+    }
+
 ?>
+ 

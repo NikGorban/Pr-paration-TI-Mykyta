@@ -1,5 +1,5 @@
-<p>templates/histoireView.php</p>
-
 <?php
- include "ink/menuIncView.php"
+include "inc/menuIncView.php"
 ?>
+
+<h1>Histoire</h1>

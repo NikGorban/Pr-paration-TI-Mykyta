@@ -1,5 +1,5 @@
-<p>templates/accueilView.php</p>
-
 <?php
 include "inc/menuIncView.php"
 ?>
+
+<h1>Accueil</h1>

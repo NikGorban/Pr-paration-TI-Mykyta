@@ -1,5 +1,5 @@
-<p>templates/aproposView.php</p>
-
 <?php
- include "ink/menuIncView.php"
+include "inc/menuIncView.php"
 ?>
+
+<h1>A propos</h1>
